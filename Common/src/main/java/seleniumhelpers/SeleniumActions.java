@@ -51,8 +51,8 @@ public class SeleniumActions {
         return element.isDisplayed();
     }
     public static String getElementAttribute(WebElement element, String name){
-        String ElementAtribut = element.getAttribute(name);
-        return ElementAtribut;
+        String elementAtribute = element.getAttribute(name);
+        return elementAtribute;
     }
     public static String getPageTitle(WebDriver driver){
         return driver.getTitle();
